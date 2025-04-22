@@ -37,6 +37,8 @@ namespace HotelBookingAPI
 
             builder.Services.AddScoped<RoomAmenityRepository>();
 
+            builder.Services.AddScoped<HotelSearchRepository>();
+
 
 
 
